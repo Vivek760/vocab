@@ -1,0 +1,6 @@
+venv/*
+results.csv
+api_key.py
+*/__pycache__/
+.ipynb_checkpoints/*
+*.pyc
