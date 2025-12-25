@@ -1,6 +1,14 @@
 import streamlit as st
 import base64
 
+
+st.set_page_config(
+    page_title="Quant",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+
 st.title("Quant")
 
 def display_pdf(file_path):
